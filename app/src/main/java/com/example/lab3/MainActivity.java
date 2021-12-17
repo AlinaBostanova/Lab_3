@@ -8,7 +8,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void onClickx(View view)
+    public void onClick(View view)
     {
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
